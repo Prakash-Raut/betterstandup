@@ -134,12 +134,18 @@
     font-feature-settings: "ss01", "cv11";
   }
 
-  h1, h2, h3, .font-serif {
+  h1,
+  h2,
+  h3,
+  .font-serif {
     font-family: var(--font-serif);
     letter-spacing: -0.02em;
   }
 
-  .font-mono, code, kbd, pre {
+  .font-mono,
+  code,
+  kbd,
+  pre {
     font-family: var(--font-mono);
   }
 }

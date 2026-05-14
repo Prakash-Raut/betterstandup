@@ -1,13 +1,13 @@
 import {
-    Body,
-    Container,
-    Head,
-    Heading,
-    Hr,
-    Html,
-    Link,
-    Preview,
-    Text,
+  Body,
+  Container,
+  Head,
+  Heading,
+  Hr,
+  Html,
+  Link,
+  Preview,
+  Text,
 } from "@react-email/components";
 
 export interface AdminWaitlistEmailProps {
