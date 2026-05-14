@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname "$0")/h"
 
-bun run lint-staged
+bunx lint-staged

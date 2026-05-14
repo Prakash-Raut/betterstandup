@@ -46,6 +46,6 @@
     "unrs-resolver"
   ],
   "lint-staged": {
-    "*": "bun run build"
+    "src/**/*.{ts,tsx}": "bun run build"
   }
 }
