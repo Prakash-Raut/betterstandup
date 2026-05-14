@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Amplitude wizard (local-only project metadata + reports)
+.amplitude/
+.amplitude-events.json
+.amplitude-dashboard.json
+amplitude-setup-report.md
+amplitude-setup-report.previous.md
+
+# Claude Code (settings.local.json holds local auth tokens)
+.claude/
+
+.env.local
